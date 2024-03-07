@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>judul/header website</h1>
+        </div>
+        <div id="main">
+            <div id="link">
+                <ul>
+                    <li><a href="#">london</a></li>
+                    <li><a href="#">paris</a></li>
+                    <li><a href="#">tokyo</a></li>
+                </ul>
+            </div>
+            <div id="content" >
+                <p><b>nama : Hesti Awalia Putri</b></p>
+                <p><b>nim : 233307016</b></p>
+                <p>pada suatu ahir</p>
+                <p><a href="#C4">ke chapter 4</a></p>
+                <p><a href="#C10">ke chapter 10</a></p>
+                <p><a href="#C20">ke chapter 20</a></p>
+                <p>ubah dengan kesimpulan ujicoba disini</p>
+
+                <h2>chapter 1</h2>
+                <p>Sedikit Kemajuan Setiap HAri Menambah Hasil Yang Besar</p>
+
+                <h2>chapter 2</h2>
+                <p>Laut yang tenang tak pernah membuat pelaut yang handal</p>
+
+                <h2>chapter 3</h2>
+                <p>Terimalah tantangan agar kamu bisa merasakan kegembiraan kemenangan</p>
+
+                <h2 id="C4">chapter 4</h2>
+                <p>Jadilah orang yang baik tapi jangan buang waktu untuk membuktikannya</p>
+
+                <h2>chapter 5</h2>
+                <p>Jadilah pelangi di awan orang lain</p>
+
+                <h2>chapter 6</h2>
+                <p>Berbahagialah untuk saat ini</p>
+
+                <h2>chapter 7</h2>
+                <p>Lakukan satu hal setiap hari yang membuatmu takut</p>
+
+                <h2>chapter 8</h2>
+                <p>Jika kamu ingin menjadi kuat pelajari cara bertarung sendirian</p>
+
+                <h2>chapter 9</h2>
+                <p>Jika kamu tidak memiliki tujuan kamu tidakakan pernah sampai disana</p>
+
+                <h2 id="C10">chapter 4</h2>
+                <p>Agar berhasil pertama kita harus yakin bahwa kita bisa</p>
+                
+                <h2>chapter 11</h2>
+                <p>Sedikit Kemajuan Setiap HAri Menambah Hasil Yang Besar</p>
+                
+                <h2>chapter 12</h2>
+                <p>Jika kamu ingin menjadi kuat pelajari cara bertarung sendirian</p>
+
+                <h2>chapter 13</h2>
+                <p>Berbahagialah untuk saat ini</p>
+
+                <h2>chapter 14</h2>
+                <p>Jadilah pelangi di awan orang lain</p>
+
+                <h2>chapter 15</h2>
+                <p>Lakukan satu hal setiap hari yang membuatmu takut</p>
+
+                <h2>chapter 16</h2>
+                <p>Laut yang tenang tak pernah membuat pelaut yang handal</p>
+
+                <h2>chapter 17</h2>
+                <p>Terimalah tantangan agar kamu bisa merasakan kegembiraan kemenangan</p>
+
+                <h2>chapter 18</h2>
+                <p>Jika kamu tidak memiliki tujuan kamu tidakakan pernah sampai disana</p>
+
+                <h2>chapter 19</h2>
+                <p>Agar berhasil pertama kita harus yakin bahwa kita bisa</p>
+
+                <h2 id="C20">chapter 20</h2>
+                <p>Jadilah pelangi di awan orang lain</p>
+
+            </div>
+        </div>
+        <div id="footer">
+            <i>copyright@Hesti Awalia Putri_233307016</i>
+        </div>
+    </body>
+</HTMl>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>judul/header website</h1>
+        </div>
+        <div id="main">
+            <div id="link">
+                <ul>
+                    <li><a href="#">london</a></li>
+                    <li><a href="#">paris</a></li>
+                    <li><a href="#">tokyo</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <p><b>nama : Hesti Awalia Putri</b></p>
+                <p><b>nim : 233307016</b></p>
+                <p>pada suatu ahir</p>
+                <h1 style="background-color: powderblue;">bgcolor:powderblue</h1>
+                <p style="background-color: tomato;">bgcolor:tomato</p>
+
+                <h1 style="color: blue;">color:blue</h1>
+                <p style="color:blue;">color:blue</p>
+
+                <h1 style="font-family: Verdana;">heading font verdana</h1>
+                <p style="font-family: courier;">paragraf font courier</p>
+
+                <h1 style="font-size: 300%;">ukuran font 300%</h1>
+                <p style="font-size: 160%;">ukuran font 160%</p>
+
+                <h1 style="text-align: center;">heading tengah</h1>
+                <p style="text-align: center;">paragraf tengah</p>
+
+                <p>style warna tomato</p>\
+                <h1 style="background-color: tomato;">tomato</h1>
+
+                <p>warna style rgb nilai sama dengan tomato</p>
+                <h1 style="background-color: rgb(255,99,71);">rgb(255,99,71)</h1>
+                <h1 style="background-color: #ff6347;">#ff6347</h1>
+                <h1 style="background-color: hsl(9,100%,64%);">hsl(9,100%,64%)</h1>
+
+                <p>tomato transparansi 50%</p>
+                <h1 style="background-color: rgba(255,99,71,0.5);">rgba(255,99,71,0.5)</h1>
+                <h1 style="background-color: hsla(9,100%,64%,0.5);">hsla(9,100%,64%,0.5)</h1>
+
+                <p>selain nama warna, warna dapat dotentukan dengna rgb,hex,hsl, atau bahkan transparansi dengan rgba atau hsla</p>
+
+
+
+            </div>
+        </div>
+        <div id="footer">
+            <i>copyright@Hesti Awalia Putri_233307016</i>
+        </div>
+    </body>
+</HTMl>

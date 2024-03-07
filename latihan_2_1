@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <div id="berita">
+            <img src="gambar/gambar1.jpg" alt="gambar pemandangan">
+            <p>gambar gunung</p>
+            <p>kombinasinya bagus</p>
+        </div>
+        <ul>
+            <li>lisa <span class="phone">08125678910</span></li>
+            <li>sali <span class="phone">08125678910</span></li>
+            <li>sila <span class="phone">08125678910</span></li>
+        </ul>
+    </body>
+</HTMl>

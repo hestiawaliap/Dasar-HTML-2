@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+      <div id="header"
+           <!----Isi header disini id header--->
+           <h1>Judul/header website</h1>
+            </div>
+            <div>
+              <div id="link">
+                <ul>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#">Tokyo</a></li>
+                  </ul>
+                  </div>
+                    <img src="gambar/icon.png" alt="Hesti Cantik Polll" usemap="#workplace-map">
+
+        <map name="workplace-map">
+          <area shape="rect" coords="50, 60, 250, 300" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+          <area shape="rect" coords="280, 180, 340, 260" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone">
+          <area shape="circle" coords="350, 300, 40" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
+        </map>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <form action="/action_page.php" method="get" target="_blank" >
+            <label for="depan">nama depan:</label><br>
+            <input type="text" name="i_name" id="depan" value="budi"><br>
+            <label for="n_belakang">nama belakan:</label><br>
+            <input type="text" name="i_belakang" id="n_belakang" value="prawira"><br><br>
+            <input type="submit" value="kirim">
+            <input type="reset" value="reset">
+        </form>
+        <p>jika and amengklik tombol "kirim" data formulir akan dikirm ke halaman bernama "/action.page.php".</p>
+        <p>tag form membuat formulir yang dapat diisi input lalu submit untuk mengirim inputan ke tujuan dan dapat mereset inputan yang ada</p>
+    </body>
+</HTMl>

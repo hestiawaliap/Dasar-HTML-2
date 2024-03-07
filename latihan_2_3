@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>judul/header website</h1>
+        </div>
+        <div id="main">
+            <div id="link">
+                <ul>
+                    <li><a href="#">london</a></li>
+                    <li><a href="#">paris</a></li>
+                    <li><a href="#">tokyo</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <p><b>nama : Hesti Awalia Putri</b></p>
+                <p><b>nim : 233307016</b></p>
+                <p>pada suatu ahir</p>
+                <form action="/proses.php">
+                    <fieldset>
+                    <legend>form pendaftaran mahasiswa baru</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nama_lengkap">nama lengkap:</label></td>
+                            <td><input type="text" name="i_belakang" id="nama_lengkap" value=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tempat">tempat</label><label for="tgllahir">/tanggal lahir</label></td>
+                            <td><input type="text" name="tempat_lahir" id="tempat" >/ <input type="date" name="tanggal_lahir" id="tgllahir"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="agama"></label>agama</td>
+                            <td><select name="agama" id="agama">
+                                  <option value="islam">islam</option>
+                                  <option value="kristen">kristen</option>
+                                  <option value="hindu">hindu</option>
+                                  <option value="budha">budha</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="kelamin">jenis kelamin</label></td>
+                            <td><input type="radio" name="kelamin" id="laki-laki" value="laki-laki"><label for="kelamin">laki-laki</label><input type="radio" name="kelamin" id="perempuan" value="perempuan"><label for="perempuan">perempuan</label></td>
+                        </tr>
+                        <tr>
+                            <td><label for="no_ijazah">no.ijazah sma/ma</label></td>
+                            <td><input type="tel" name="no_ijazah" id="no_ijazah"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="foto">foto(ukuran file maks. 20 kb)</label></td>
+                            <td><input type="file" name="foto" id="foto" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="n_ayah">nama ayah</label></td>
+                            <td><input type="text" name="n_ayah" id="n_ayah"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="n_ibu">nama ibu</label></td>
+                            <td><input type="text" name="n_ibu" id="n_ibu"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat">alamat rumah</label></td>
+                            <td><input type="text" name="alamat" id="alamat" style="height: 100px;width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="notel">no telp</label></td>
+                            <td><input type="tel" name="notel" id="notel"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="n_sekolah_asal">nama sekolah asal</label></td>
+                            <td><input type="text" name="n_sekolah_asal" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat_sekolah_asal">alamat sekolah asal</label></td>
+                            <td><input type="text" name="alamat_sekolah_asal" id="alamat_sekolah_asal" style="height: 100px;width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="jurusan">jurusan dipilih</label></td>
+                            <td><select name="jurusan" id="jurusan">
+                                  <option value="islam">islam</option>
+                                  <option value="kristen">kristen</option>
+                                  <option value="hindu">hindu</option>
+                                  <option value="budha">budha</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="asal_informasi">tahu informasi ini dari :</label></td>
+                            <td><input type="radio" name="asal_informasi" id="koran"><label for="koran">koran</label>
+                                <input type="radio" name="asal_informasi" id="website"><label for="website">website</label>
+                                <input type="radio" name="asal_informasi" id="televisi"><label for="televisi">televisi</label>
+                                <input type="radio" name="asal_informasi" id="radio"><label for="radio">radio</label>
+                                <input type="radio" name="asal_informasi" id="teman"><label for="teman">teman</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="kirim">
+                                <input type="reset" value="reset"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="foote">
+            <i>copyright@Hesti Awalia Putri_233307016</i>
+        </div>
+    </body>
+</HTMl>

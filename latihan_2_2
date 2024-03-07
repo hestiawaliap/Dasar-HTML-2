@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>judul/header website</h1>
+        </div>
+        <div id="main">
+            <div id="link">
+                <ul>
+                    <li><a href="#">london</a></li>
+                    <li><a href="#">paris</a></li>
+                    <li><a href="#">tokyo</a></li>
+                </ul>
+            </div>
+            <div id="content"width="100%">
+                <p><b>nama : Hesti Awalia Putri</b></p>
+                <p><b>nim : 233307016</b></p>
+                <p>haii guys aku dari kelompok 3 yang beranggota Ergi dan Dimas</p>
+            </div>
+        </div>
+        <div id="footer">
+            <i>copyright@Hesti Awalia Putri_233307016</i>
+        </div>
+    </body>
+</HTMl>

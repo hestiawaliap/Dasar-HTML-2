@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Belajar membuat HTML">
+        <meta name="keywords" content="Heading dan paragraf">
+        <meta name="author" content="Hesti Awalia Putri">
+        <title>Halaman HTML hesti cantik</title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="30x30" />
+    </head>
+    <body>
+        <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipe Input</title>
+    <link rel="icon" type="png" href="icon.png" sizes="16x16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <label for="username"> type "text" : </label><br/>
+    <input type="text" id="username" name="username"><br/>
+    <label for="pwd"> type "password"</label><br/>
+    <input type="password" id="pwd" name="pwd"><br/>
+
+    <br/>
+    <hr>
+    <h3>Uji coba 2</h3>
+    <input type="radio" id="html" value="HTML"> <label for="html">HTML</label><br/>
+    <input type="radio" id="css" value="CSS"> <label for="css">CSS</label><br/>
+    <input type="radio" id="javascript" value="JavaScript"> <label for="javascript">JavaScript</label>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan type radio dan menggunakan id html, css, dan javascript.</p>
+
+    <hr>
+    <h3>Uji coba 3</h3>
+    <input type="checkbox" id="id1" value="Bike">
+    <label for="id1"> I have a bike</label><br/>
+    <input type="checkbox" id="id2" value="Car">
+    <label for="id2"> I have a car</label><br/>
+    <input type="checkbox" id="id3" value="Boat">
+    <label for="id3"> I have a boat</label><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan type checkbox dan menggunakan id1, id2, dan id3 dengan value kendaraan yang berbeda-beda. </p>
+
+    <hr>
+    <h3>Uji coba 4</h3>
+    <label for="favcolor">pilih warna dengan type="color" :</label>
+    <input type="color" id="favcolor" name="favcolor"><br/>
+    <label for="b">pilih tanggal dengan type="date" :</label>
+    <input type="date" id="b" name="tanggal"><br/>
+    <input type="button" onclick="alert('Hello World')" value="Click Me!"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk warna favorit dan tanggal. </p>
+    
+    <hr>
+    <h3>Uji coba 5</h3>
+    <label for="birthdaytime">input dengan type datetime-local :</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br/>
+    <label for="bdaymonth">input dengan type month :</label>
+    <input type="month" id="bdaymonth" name="bdaymonth"><br/>
+    <label for="email">enter your email :</label>
+    <input type="email" id="email" name="email"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk tanggal dan bulan ulang tahun, dan inputan email juga. </p>
+
+    <hr>
+    <h3>Uji coba 6</h3>
+    <input type="image" src="icon.png" alt="Submit" width="48" height="48"><br/>
+    <label for="myfile">pilih file :</label>
+    <input type="file" id="myfile" name="myfile"><br/>
+    <input type="hidden" id="cusId" name="cusId" value="3487"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk gambar dll.</p>
+
+    <hr>
+    <h3>Uji coba 7</h3>
+    <label for="quantity">quantity (between 1 and 5) :</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10"><br/>
+    <label for="vol">volume (between 0 and 50) :</label>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk quentity dan vulume. </p>
+
+    <hr>
+    <h3>Uji coba 8</h3>
+    <label for="homepage">add your homepage :</label>
+    <input type="url" id="homepage" name="homepage"><br/>
+    <label for="gsearch">search google :</label>
+    <input type="search" id="gsearch" name="gsearch"><br/>
+    <label for="ph">enter your phone number :</label>
+    <input type="tel" id="ph" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk homepage dan search.</p>
+
+    <hr>
+    <h3>Uji coba 9</h3>
+    <label for="appt"> select a time :</label>
+    <input type="time" id="appt" name="appt"><br/>
+    <label for="week">select a week :</label>
+    <input type="week" id="week" name="week"><br/>
+    <p> Pada uji coba ini saya belajar tentang penggunaan inputan data untuk time dan week.</p>
+</body>
+</html>
